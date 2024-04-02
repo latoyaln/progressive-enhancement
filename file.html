@@ -25,8 +25,9 @@
 			 Dus die krijg je alvast. Maak je over de server niet druk; het gaat om de UI. -->
 		<form method="post">
 
-			<!-- Hint: Denk niet te ingewikkeld -->
-
+			<input type="file" name="file" accept="image/*" id="fileInput" onchange="previewImage()">
+			<label for="fileInput" class="fdnd-button">Bestand kiezen</label>
+			<img src="" alt="Preview Image">
 			<button type="submit" class="fdnd-button">Uploaden</button>
 
 		</form>
